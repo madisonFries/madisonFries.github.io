@@ -1,0 +1,57 @@
+
+@import url(base.css);
+
+
+#navImg {
+    float: right;
+    width: 400px;
+    margin: 0em 4em 0em 1.5em;
+}
+
+#navImg img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin-left: 4em;
+}
+
+p {
+    width: 600px;
+    margin-left: 2em;
+    line-height:1.5em;
+    font-size:large;
+    font-family: monospace;
+}
+
+footer {
+    font-size: 2em;
+    /* float: right; */
+}
+
+body {
+    background-color: rgb(195, 211, 241);
+}
+
+table {
+   float: right;
+   font-size: larger;
+   border: 5px solid grey;
+   border-collapse: collapse;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: azure;
+}
+
+th, td {
+    padding: 15px;
+    font-family: serif;
+    border: 5px solid grey;
+}
+

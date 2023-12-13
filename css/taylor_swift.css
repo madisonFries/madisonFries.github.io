@@ -1,0 +1,43 @@
+
+@import url(base.css);
+
+body {
+    background-image:url(../images/taylorSwift.avif) ;
+    background-size: cover;
+}
+
+p {
+    background-color: rgba(204, 221, 236, 0.89);
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 5.5em;
+}
+
+h3 {
+    line-height: 1.5em;
+}
+
+p {
+    width: 600px;
+    margin-left: 2em;
+    line-height:1.5em;
+   
+}
+
+footer {
+    font-size: 2em;
+    float: right;
+   
+}
+  
+li {
+    font-family: fantasy;
+}
+
+#navVid {
+    float: right;
+    width: 400px;
+    margin: 0em 4em 0em 1.5em;
+}

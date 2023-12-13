@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+nav {
+    float: right;
+    margin-right: 3em;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: lavenderblush;
+    border-radius: 10px;
+    border-color: rgba(255, 240, 245, 0.822);
+    font-family: cursive;
+    padding: 15px;
+    margin: 25px 25px 25px 25px;
+}
+
+@media (max-aspect-ratio: 1/1){
+    button {
+        /* width: 90%; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        margin: 0 12% 0 12%;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}

@@ -1,0 +1,51 @@
+@import url(base.css);
+
+
+h2 {
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+p {
+
+    margin-left: 3em;
+    line-height: 1.5em;
+    font-size: large;
+    font-family: monospace;
+}
+
+footer {
+    font-size: 2em;
+}
+
+#navImg {
+    float: right;
+    width: 400px;
+    margin: 0em 4em 0em 1.5em;
+}
+
+body {
+    background-color: rgb(241, 203, 222);
+}
+
+article {
+    /* width: 600px; */
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 2px solid rgb(231, 231, 231);
+    widows: 4;
+    orphans: 4;
+    margin-bottom: 1%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+@media print, (max-aspect-ratio: 1/1){
+    article{
+        column-count: 1;
+    }
+    
+
+}

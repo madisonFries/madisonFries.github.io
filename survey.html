@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link href="css/survey.css" rel="stylesheet"/>
+<title>Survey</title>
+
+</head>
+
+<body>
+    <h1><u>Madison Fries</u></h1>
+
+    <div id="navImg">
+    <nav>
+        <a href="taylorSwift.html"><button>TS</button></a>  
+        <a href="colorGuard.html"><button>CG</button></a>    
+        <a href="winterGuard.html"><button>WG</button></a>
+        <a href="index.html"><button>HM</button></a>
+    </nav>
+    <h2>Survey!</h2>
+    <form>
+    <label for="cname">Name:</label>
+    <input id="cname" name="cardname" type="text" />
+    <br><br>
+
+    <label for="yearSL">Year:</label>
+    <select id="yearSL" name="year">
+       <option value="1">Freshman</option>
+       <option value="2">Sophomore</option>
+       <option value="3">Junior</option>
+       <option value="4">Senior</option>   
+       <option value="5">Graduated School</option> 
+       <option value="6">Part-time</option> 
+       <option value="99">--Other--</option>            
+    </select>
+    <br><br>
+    <div class="formRow">
+        <label for="mail"> E-mail:</label>
+        <input name="custEmail" id="mail" type="email" required />
+        </div>
+        <br>
+        <div class="formRow">
+            <label for="phone"> Phone number:</label>
+            <input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn"
+                     pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[s-]?\d{4}$"/>
+            </div>
+            <br>
+            <div class="formRow">
+                <label>What's your favorite color?</label>
+                <fieldset class="optGroup">
+                   <label for="fpink">Pink</label>
+                   <input name="sFriend" id="fpink" value="pink" type="checkbox"/>
+                   <label for="fblue">Blue</label>
+                   <input name="sFriend" id="fblue" value="blue" type="checkbox"/>
+                   <label for="fpurple">Purple</label>
+                   <input name="sFriend" id="fpurple" value="purple" type="checkbox"/>
+                </fieldset>
+             </div>
+             <br>
+
+             <div class="formRow">
+                <label>How are you feeling today?</label>
+                <fieldset class="optGroup">
+                   <label for="fgreat">Great!</label>
+                   <input name="sFriend" id="fgreat" value="great" type="radio"/>
+                   <label for="fok">Ok</label>
+                   <input name="sFriend" id="fok" value="ok" type="radio"/>
+                   <label for="fterrible">Terrible</label>
+                   <input name="sFriend" id="fterrible" value="terrible" type="radio"/>
+                </fieldset>
+             </div>
+             <br>
+             <div class="formRow">
+                <label>Type me some stuff.</label>
+                <textarea name="typeMeStuff" id="urmom" cols="30" rows="2"></textarea>
+             </div>
+
+             <br>
+             <div id="buttons">
+                <input type="submit" value="Submit!" />
+                <input type="reset" value="Reset" />
+            </div>
+</form>
+
+
+
+
+
+
+<footer>
+    
+
+    </footer>
+
+
+
+</body>
+
+</html>
